@@ -16,7 +16,7 @@ public class contactSort {
     public static ArrayList<Contact> parseContactsFile() {
         ArrayList<Contact> contactList = new ArrayList<Contact>();
         try { 
-            Scanner in = new Scanner(new File ("data_to_parse.txt"));
+            Scanner in = new Scanner(new File ("cs_class_2021/data_to_parse.txt"));
             String topLine = in.nextLine();
             while (in.hasNext()) {
                 String strinLine = in.nextLine();
